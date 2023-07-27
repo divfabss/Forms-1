@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Estilo #1</title>
+  <!-- Conexiones importantes -->
+  <!-- Links de Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Righteous&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+  <!-- Links de Hoja de estilos CSS -->
+  <link rel="stylesheet" href="/styles.css">
+
+</head>
+<body>
+
+  <!-- Formulario: -->
+<div class="form-container">
+  <form>
+
+    <!-- Formulario Nombre -->
+    <div class="name">
+    <!-- Se agrega un icono al Usuario -->
+    <label for="nombre"><img width="35" height="35" src="https://img.icons8.com/arcade/64/person-male.png" alt="person-male"/> Usuario:</label>
+    <input type="text" id="nombre" name="nombre"placeholder="*Digite su usuario*"> <!-- Sustituir mensaje del placeholder -->
+    </div>
+
+    <!-- Formulario Password -->
+    <div class="password">
+    <!-- Se agrega un icono a la Contraseña -->
+    <label for="contrasena"><img width="35" height="35" src="https://img.icons8.com/arcade/64/password.png" alt="password"/> Contraseña:</label>
+    <input type="password" id="contraseña" name="contraseña" placeholder="*Digite su contraseña*"> <!-- Sustituir mensaje del placeholder -->
+
+    <!-- Formulario Pais -->
+    <div class="country">
+    <!-- Se agrega un icono al Pais -->
+    <label for="pais"><img width="35" height="35" src="https://img.icons8.com/arcade/64/flag.png" alt="flag"/> País:</label>
+      <select id="pais" name="pais">
+          <option value="opcion1">Costa Rica</option>
+          <option value="opcion2">Panama</option>
+          <option value="opcion3">Guatemala</option>
+      </select>
+    </div>
+    <!-- Formulario Comentario -->
+    <div class="comments">
+    <!-- Se agrega un icono al Comentario -->
+    <label for="comentarios"><img width="30" height="30" src="https://img.icons8.com/3d-fluency/94/chat-message.png" alt="chat-message"/> Comentarios:</label>
+    <textarea id="comentarios" name="comentarios" rows="4" cols="30" placeholder="*Mensaje*"></textarea> <!-- Sustituir mensaje del placeholder -->
+    </div>
+
+    <!-- Boton principal -->
+    <div class="boton">
+    <button>Enviar</button> <!-- Sustituir Frase -->
+    </div>
+
+</form>
+</div>
+
+</body>
+</html>
